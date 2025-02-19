@@ -46,3 +46,37 @@ a{
     color: white;
     text-decoration: none;
 }
+
+.form {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .frms {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .form {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .frms {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .form {
+      width: 60%;
+      margin: 0 auto;
+    }
+  
+    .frms {
+      width: 40%;
+      margin: 0 auto;
+    }
+  }

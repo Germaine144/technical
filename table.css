@@ -29,3 +29,34 @@ table {
     cursor: pointer;
     border-radius: 6px;
   }
+  a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+  }
+  
+  
+  @media (min-width: 768px) {
+    table {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    table {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
