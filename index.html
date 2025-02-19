@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <main class="form">
+        <section class="frm">
+            <h3>Person Expense  Track</h3>
+            <form class="frms">
+                <label for="expense-description">Expense Description</label>
+                <input type="text" id="expense-description"  placeholder="Pls Enter your Expense Description " required = "">
+                
+                <label for="expense-amount">Expense Amount</label>
+                <input type="number" id="expense-amount"  placeholder="Pls Enter your Expense Amount " required = "">
+                <h4>Select Category</h4>
+                <select class="choose">
+                    <option value="select">Select Category</option>
+                    <option value="groceries">Food</option>
+                    <option value="rent">Transport</option>
+                    <option value="utilities">Entertainment</option>
+                    <option value="miscellaneous">Tourist</option>
+                    
+                </select>
+                <label for ="date">Date</label>
+               <input type="date" id="date" name="date" required = "">
+               <button type="button">Add Expense</button>
+            </form>
+        </section>
+    </main>
     
 </body>
 </html>
